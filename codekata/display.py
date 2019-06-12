@@ -1,6 +1,4 @@
-a,s=raw_input().split()
-a=int(a)
-s=int(s)
-for t  in range(a+1,s):
-  if(t%2!=0):
-    print t
+f=list(map(int,input().split()))
+for j in range(f[0]+1,f[1]):
+  if j%2 != 0:
+    print(j,end=' ')
