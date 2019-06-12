@@ -1,4 +1,4 @@
-f=list(map(int,input().split()))
-for j in range(f[0]+1,f[1]):
-  if j%2 != 0:
-    print(j,end=' ')
+o,p=map(int,input().split())
+for w in range(o+1,p):
+    if(w%2==0):
+        print(w,end=' ')
